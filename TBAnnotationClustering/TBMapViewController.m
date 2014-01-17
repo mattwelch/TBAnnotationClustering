@@ -45,8 +45,12 @@
     }
     [bounceAnimation setTimingFunctions:timingFunctions.copy];
     bounceAnimation.removedOnCompletion = NO;
+
+    CGRect frame = view.layer.frame;
+    CGPoint center = CGPointMake(CGRectGetMidX(frame), CGRectGetMidY(frame));
+    view.layer.position = center;
+
     view.layer.anchorPoint=CGPointMake(0.5, 0.5);
-    CGPoint xx=view.layer.anchorPoint;
     [view.layer addAnimation:bounceAnimation forKey:@"bounce"];
 }
 
