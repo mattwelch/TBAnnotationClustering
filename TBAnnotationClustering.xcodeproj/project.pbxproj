@@ -18,6 +18,17 @@
 		C9C9D6C6188856F700D7E1D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C9D6A5188856F700D7E1D2 /* Cocoa.framework */; };
 		C9C9D6CE188856F700D7E1D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C9D6CC188856F700D7E1D2 /* InfoPlist.strings */; };
 		C9C9D6D0188856F700D7E1D2 /* TBAnnotationClusteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D6CF188856F700D7E1D2 /* TBAnnotationClusteringTests.m */; };
+		C9C9D6E41888576500D7E1D2 /* TBClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D6DA1888576500D7E1D2 /* TBClusterAnnotation.m */; };
+		C9C9D6E51888576500D7E1D2 /* TBClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D6DC1888576500D7E1D2 /* TBClusterAnnotationView.m */; };
+		C9C9D6E61888576500D7E1D2 /* TBCoordinateQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D6DE1888576500D7E1D2 /* TBCoordinateQuadTree.m */; };
+		C9C9D6E71888576500D7E1D2 /* TBMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D6E01888576500D7E1D2 /* TBMapViewController.m */; };
+		C9C9D6E81888576500D7E1D2 /* TBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D6E21888576500D7E1D2 /* TBQuadTree.m */; };
+		C9C9D6E91888576500D7E1D2 /* USA-HotelMotel.csv in Resources */ = {isa = PBXBuildFile; fileRef = C9C9D6E31888576500D7E1D2 /* USA-HotelMotel.csv */; };
+		C9C9D6EB188857B400D7E1D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C9D6EA188857B400D7E1D2 /* CoreLocation.framework */; };
+		C9C9D6ED188857BA00D7E1D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C9D6EC188857BA00D7E1D2 /* MapKit.framework */; };
+		C9C9D6EF188857C300D7E1D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C9D6EE188857C300D7E1D2 /* CoreGraphics.framework */; };
+		C9C9D6F0188857CE00D7E1D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C9D6AA188856F700D7E1D2 /* Foundation.framework */; };
+		C9D815E21888D08200A4F87A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D815E11888D08200A4F87A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +61,21 @@
 		C9C9D6CB188856F700D7E1D2 /* TBAnnotationClusteringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBAnnotationClusteringTests-Info.plist"; sourceTree = "<group>"; };
 		C9C9D6CD188856F700D7E1D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9C9D6CF188856F700D7E1D2 /* TBAnnotationClusteringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAnnotationClusteringTests.m; sourceTree = "<group>"; };
+		C9C9D6D91888576500D7E1D2 /* TBClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBClusterAnnotation.h; sourceTree = "<group>"; };
+		C9C9D6DA1888576500D7E1D2 /* TBClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBClusterAnnotation.m; sourceTree = "<group>"; };
+		C9C9D6DB1888576500D7E1D2 /* TBClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBClusterAnnotationView.h; sourceTree = "<group>"; };
+		C9C9D6DC1888576500D7E1D2 /* TBClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBClusterAnnotationView.m; sourceTree = "<group>"; };
+		C9C9D6DD1888576500D7E1D2 /* TBCoordinateQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCoordinateQuadTree.h; sourceTree = "<group>"; };
+		C9C9D6DE1888576500D7E1D2 /* TBCoordinateQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCoordinateQuadTree.m; sourceTree = "<group>"; };
+		C9C9D6DF1888576500D7E1D2 /* TBMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMapViewController.h; sourceTree = "<group>"; };
+		C9C9D6E01888576500D7E1D2 /* TBMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMapViewController.m; sourceTree = "<group>"; };
+		C9C9D6E11888576500D7E1D2 /* TBQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBQuadTree.h; sourceTree = "<group>"; };
+		C9C9D6E21888576500D7E1D2 /* TBQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBQuadTree.m; sourceTree = "<group>"; };
+		C9C9D6E31888576500D7E1D2 /* USA-HotelMotel.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "USA-HotelMotel.csv"; sourceTree = "<group>"; };
+		C9C9D6EA188857B400D7E1D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C9C9D6EC188857BA00D7E1D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C9C9D6EE188857C300D7E1D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9D815E11888D08200A4F87A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D815E21888D08200A4F87A /* QuartzCore.framework in Frameworks */,
+				C9C9D6F0188857CE00D7E1D2 /* Foundation.framework in Frameworks */,
+				C9C9D6EF188857C300D7E1D2 /* CoreGraphics.framework in Frameworks */,
+				C9C9D6ED188857BA00D7E1D2 /* MapKit.framework in Frameworks */,
+				C9C9D6EB188857B400D7E1D2 /* CoreLocation.framework in Frameworks */,
 				C9C9D6A6188856F700D7E1D2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +126,10 @@
 		C9C9D6A4188856F700D7E1D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9D815E11888D08200A4F87A /* QuartzCore.framework */,
+				C9C9D6EE188857C300D7E1D2 /* CoreGraphics.framework */,
+				C9C9D6EC188857BA00D7E1D2 /* MapKit.framework */,
+				C9C9D6EA188857B400D7E1D2 /* CoreLocation.framework */,
 				C9C9D6A5188856F700D7E1D2 /* Cocoa.framework */,
 				C9C9D6C4188856F700D7E1D2 /* XCTest.framework */,
 				C9C9D6A7188856F700D7E1D2 /* Other Frameworks */,
@@ -115,6 +150,16 @@
 		C9C9D6AB188856F700D7E1D2 /* TBAnnotationClustering */ = {
 			isa = PBXGroup;
 			children = (
+				C9C9D6D91888576500D7E1D2 /* TBClusterAnnotation.h */,
+				C9C9D6DA1888576500D7E1D2 /* TBClusterAnnotation.m */,
+				C9C9D6DB1888576500D7E1D2 /* TBClusterAnnotationView.h */,
+				C9C9D6DC1888576500D7E1D2 /* TBClusterAnnotationView.m */,
+				C9C9D6DD1888576500D7E1D2 /* TBCoordinateQuadTree.h */,
+				C9C9D6DE1888576500D7E1D2 /* TBCoordinateQuadTree.m */,
+				C9C9D6DF1888576500D7E1D2 /* TBMapViewController.h */,
+				C9C9D6E01888576500D7E1D2 /* TBMapViewController.m */,
+				C9C9D6E11888576500D7E1D2 /* TBQuadTree.h */,
+				C9C9D6E21888576500D7E1D2 /* TBQuadTree.m */,
 				C9C9D6B7188856F700D7E1D2 /* TBAppDelegate.h */,
 				C9C9D6B8188856F700D7E1D2 /* TBAppDelegate.m */,
 				C9C9D6BA188856F700D7E1D2 /* MainMenu.xib */,
@@ -127,6 +172,7 @@
 		C9C9D6AC188856F700D7E1D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9C9D6E31888576500D7E1D2 /* USA-HotelMotel.csv */,
 				C9C9D6AD188856F700D7E1D2 /* TBAnnotationClustering-Info.plist */,
 				C9C9D6AE188856F700D7E1D2 /* InfoPlist.strings */,
 				C9C9D6B1188856F700D7E1D2 /* main.m */,
@@ -202,6 +248,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "WindUp Rocket";
 				TargetAttributes = {
+					C9C9D6A1188856F700D7E1D2 = {
+						DevelopmentTeam = FQ93375Q29;
+					};
 					C9C9D6C2188856F700D7E1D2 = {
 						TestTargetID = C9C9D6A1188856F700D7E1D2;
 					};
@@ -231,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C9D6E91888576500D7E1D2 /* USA-HotelMotel.csv in Resources */,
 				C9C9D6B0188856F700D7E1D2 /* InfoPlist.strings in Resources */,
 				C9C9D6BE188856F700D7E1D2 /* Images.xcassets in Resources */,
 				C9C9D6B6188856F700D7E1D2 /* Credits.rtf in Resources */,
@@ -255,6 +305,11 @@
 			files = (
 				C9C9D6B9188856F700D7E1D2 /* TBAppDelegate.m in Sources */,
 				C9C9D6B2188856F700D7E1D2 /* main.m in Sources */,
+				C9C9D6E61888576500D7E1D2 /* TBCoordinateQuadTree.m in Sources */,
+				C9C9D6E51888576500D7E1D2 /* TBClusterAnnotationView.m in Sources */,
+				C9C9D6E41888576500D7E1D2 /* TBClusterAnnotation.m in Sources */,
+				C9C9D6E71888576500D7E1D2 /* TBMapViewController.m in Sources */,
+				C9C9D6E81888576500D7E1D2 /* TBQuadTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +439,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBAnnotationClustering/TBAnnotationClustering-Prefix.pch";
 				INFOPLIST_FILE = "TBAnnotationClustering/TBAnnotationClustering-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -397,11 +455,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBAnnotationClustering/TBAnnotationClustering-Prefix.pch";
 				INFOPLIST_FILE = "TBAnnotationClustering/TBAnnotationClustering-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +526,7 @@
 				C9C9D6D5188856F700D7E1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9C9D6D6188856F700D7E1D2 /* Build configuration list for PBXNativeTarget "TBAnnotationClusteringTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +535,7 @@
 				C9C9D6D8188856F700D7E1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

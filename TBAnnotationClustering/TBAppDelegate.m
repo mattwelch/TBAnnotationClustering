@@ -7,12 +7,12 @@
 //
 
 #import "TBAppDelegate.h"
-
+#import "TBMapViewController.h"
 @implementation TBAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+
 }
 
 @end
